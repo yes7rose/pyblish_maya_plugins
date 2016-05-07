@@ -1,10 +1,12 @@
+# coding=utf-8
+
 import os
 import pyblish.api
 
 
 class CollectShaders(pyblish.api.Collector):
     label = "Collect Shaders"
-    hosts = ["maya"]
+    # hosts = ["maya"]
 
     IDENTIFIER = "shaded_SET"
 

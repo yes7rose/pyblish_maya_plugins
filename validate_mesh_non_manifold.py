@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import pyblish.api
 from maya import cmds
 

@@ -1,3 +1,5 @@
+# _*_ coding=utf-8 _*_
+
 import os
 import pyblish_maya
 import pyblish_magenta.plugin

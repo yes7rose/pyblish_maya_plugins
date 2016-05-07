@@ -1,10 +1,12 @@
+# -*- coding: utf-8 -*-
+
 import pyblish.api
 
 
 class CollectCurves(pyblish.api.Collector):
     """Inject rigs for baking"""
 
-    hosts = ["maya"]
+    # hosts = ["maya"]
 
     def process(self, context):
         from maya import cmds

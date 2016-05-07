@@ -1,3 +1,5 @@
+# coding=utf-8
+
 """Wrap bare alembic files into a Maya ASCII
 
 Published assets are designed for Maya referencing, but alembics

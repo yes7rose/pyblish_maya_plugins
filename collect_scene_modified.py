@@ -1,10 +1,12 @@
+# coding=utf-8
+
 import pyblish.api
 
 
 @pyblish.api.log
 class CollectSceneSaved(pyblish.api.Collector):
     """Store scene modified in context"""
-    hosts = ["maya"]
+    # hosts = ["maya"]
 
     def process(self, context):
         from maya import cmds

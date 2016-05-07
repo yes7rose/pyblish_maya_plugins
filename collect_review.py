@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import pyblish.api
 
 import maya.cmds as cmds
@@ -6,7 +8,7 @@ import maya.cmds as cmds
 @pyblish.api.log
 class CollectCameras(pyblish.api.Collector):
     order = pyblish.api.Collector.order + 0.2
-    hosts = ["maya"]
+    # hosts = ["maya"]
     label = "Collect Cameras"
 
     def process(self, context):

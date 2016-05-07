@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
+
 import pyblish.api
 
 
 class CollectComment(pyblish.api.Collector):
     """Find and collect optional comment"""
-    hosts = ["maya"]
+    # hosts = ["maya"]
 
     def process(self, context):
         from maya import cmds

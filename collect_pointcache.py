@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os
 import pyblish.api
 
@@ -5,7 +7,7 @@ import pyblish.api
 class CollectPointcache(pyblish.api.Collector):
     """Inject rigs for caching"""
 
-    hosts = ["maya"]
+    # hosts = ["maya"]
 
     def process(self, context):
         from maya import cmds

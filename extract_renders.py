@@ -1,3 +1,5 @@
+# _*_ coding=utf-8 _*_
+
 import os
 import shutil
 import pyblish_magenta.api
